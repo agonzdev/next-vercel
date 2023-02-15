@@ -1,5 +1,5 @@
-import styles from '../styles/NavBar.module.css'
-import { ActiveLink } from './ActiveLink'
+import styles from './NavBar.module.css';
+import { ActiveLink } from './ActiveLink';
 
 const menuItems = [
   {
