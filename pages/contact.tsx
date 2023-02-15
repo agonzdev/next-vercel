@@ -6,7 +6,7 @@ export default function ContactPage() {
     <MainLayout>
           <h1>Contact Page</h1>
           <h1 className={'title'}>
-            Ir a <Link href={'/'}>Contact</Link>
+            Ir a <Link href={'/'}>Home</Link>
           </h1>
           <p className={'description'}>
             Estas en Contact
