@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { NavBar} from '../NavBar'
-import styles from '@/styles/MainLayout.module.css'
+import styles from '../../styles/MainLayout.module.css'
 import { FC } from 'react'
 
 
