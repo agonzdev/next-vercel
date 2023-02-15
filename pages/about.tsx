@@ -7,7 +7,7 @@ export default function AboutPage() {
       <> 
           <h1>About Page</h1>
           <h1 className={'title'}>
-            Ir a <Link href={'/'}>Home</Link>
+            Ir a <Link href={'/'}>About</Link>
           </h1>
           <p className={'description'}>
             Estas en About
