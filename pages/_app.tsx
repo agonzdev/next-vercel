@@ -1,7 +1,7 @@
-import '../styles/globals.css'
 import { NextPage } from 'next';
 import type { AppProps } from 'next/app'
-import { ReactElement } from 'react';
+
+import '../styles/globals.css';
 
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: JSX.Element) => JSX.Element;
@@ -13,7 +13,7 @@ type AppPropsWithLayout = AppProps & {
 
 export default function App({ Component, pageProps }: AppPropsWithLayout) {
 
-  const getLayout = Component.getLayout || ((page: ReactElement) => page);
+  const getLayout = Component.getLayout || ((page: JSX.Element) => page);
 
   return getLayout(<Component {...pageProps} />)
 }
